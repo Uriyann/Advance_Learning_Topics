@@ -22,6 +22,8 @@ capitals = {
 # print(capitals["USA"])                # Las Vegas
 # capitals.pop("China")                 # Removes China from keys and its values
 
+# print(capitals.popitem())             # Printing the last key and value
+
 # for key,value in capitals.items():    
     # print(key,value)                  # USA Las Vegas
                                         # India New Dehli
