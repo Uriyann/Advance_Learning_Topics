@@ -29,4 +29,3 @@ capitals = {
                                         # India New Dehli
                                         # Russia Moscow
                                         # Germany Berlin
-
