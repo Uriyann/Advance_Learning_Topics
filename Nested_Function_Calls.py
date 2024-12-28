@@ -1,0 +1,1 @@
+"""Nested Function Calls = Are functions that we define inside other functions to directly access the variables and names defined in the enclosing function."""
