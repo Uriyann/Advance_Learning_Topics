@@ -1,4 +1,4 @@
-"""Function = a block of code which is executed only when it is called."""
+"""Function = A block of code which is executed only when it is called."""
 
 def hello(name):
     print("hello! " + name)
