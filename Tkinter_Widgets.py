@@ -11,6 +11,8 @@ label.pack()
 text = tk.Text(master= main)
 text.pack()
 
+entry = ttk.Entry(master= main)
+entry.pack()
 
 
 
