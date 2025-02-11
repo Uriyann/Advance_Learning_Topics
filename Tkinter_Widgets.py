@@ -14,6 +14,7 @@ text.pack()
 entry = ttk.Entry(master= main)
 entry.pack()
 
-
+button = ttk.Button(master= main, text= "A Button", command= main.destroy)
+button.pack()
 
 main.mainloop()
