@@ -5,24 +5,24 @@ from PIL import Image, ImageTk
 
 main = tk.Tk()
 main.title("TEST PROJECT")
-main.geometry("500x500")
+main.geometry("900x900")
 
-label = Label(main, text= "MARK DE GUZMEN", font= ('Times New Roman', 20),
+label = Label(main, text= "NEKOOO CATTT", font= ('Times New Roman', 20),
              bg= 'white', width= 24, height= 2)
 label.pack()
 
-frame = ttk.Frame(main, width= 300, height= 300, borderwidth= 10, 
+frame = ttk.Frame(main, width= 800, height= 800, borderwidth= 10, 
                   relief= tk.GROOVE)
 frame.propagate(False)
 frame.pack()
 
-ext_label = ttk.Label(frame, text= "Good mood")
+ext_label = ttk.Label(frame, text= "Good Feeling")
 ext_label.pack()
 
-image = Image.open(r"C:\Users\M S I\Downloads\IMG20250211142852.jpg")
+image = Image.open(r"C:\Users\M S I\Downloads\e4140a754afb75b19463aefe149e65ab.webp")
 image = ImageTk.PhotoImage(image)
 
-image_label = tk.Label(frame, width= 250, height= 250, image=image)
+image_label = tk.Label(frame, width= 750, height= 750, image=image)
 image_label.pack()
 
 
