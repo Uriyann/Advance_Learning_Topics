@@ -15,7 +15,6 @@ button = tk.Button(master= main, text= "A Button", command= main.destroy)
 button.pack()
 
 """Entry"""
-
 entry = tk.Entry(main)
 entry.pack()
 
